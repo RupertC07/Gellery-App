@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@800&display=swap');  
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+body 
+{
+  margin: 0;
+
+  height: 100vh;
+  padding : 100px;
+
+  background-color: rgb(67, 180, 176);
+  overflow-x: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.card-custom 
+{
+  width: 1100px;
+  height: 90vh;
+  max-height: 200vh;
+  border-radius: 15px;
+  background-color: rgb(218, 228, 237);
+  padding: 50px;;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-card 
+{
+  width: 900px;
+  height: 80vh;
+  max-height: 200vh;
+
+
+  background-color: rgb(255, 254 , 255);
+
+  border-radius: 7px;
+  box-shadow: 1px 1px 10px   #BFC2C6;
+
+}
+
+#inner-card{
+  
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+}
+
+#title {
+  letter-spacing: -1px;
+  font-family: 'Kanit', sans-serif;    
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.image {
+  display: block;
+  width: 250px;
+  height: 250px;
+  border-radius: 5px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  background-color: rgba(70, 69, 85, 0.8);
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+.content-text 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 30px;
+
+  
+}
+
+
+
+
+.overlay-content h3 {
+  font-size: 24px;
+ 
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+
+
+
+#rem 
+{
+  position: relative;
+}
+
+#up-btn:hover
+{
+
+  cursor: pointer;
+  color: rgb(67, 180, 176);
+
+}
+
+.btn-links{
+  color: rgb(67, 180, 176);
+}
+
+.card-img-preview {
+
+    width: 400px;
+    background-color:#fff;
+    border-radius: 3px;
+    padding: 20px;
+
+    box-shadow: 0px 0px 5px black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ImageUp
+{
+    max-width: 350px;
+    max-height: 350px;
+}
+
